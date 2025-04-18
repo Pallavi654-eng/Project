@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body> -->
+
+    <!-- image gallery:
+light box - image become thick and background -dull
+when we click on image OR select an image the image get big that is image gallery
+-->
+
+    <!-- <div class="flex justify-center items-center h-screen gap-4">
+        <img src="/images/parkimage.jpg" alt="" class="w-32 h-32 rounded-2xl cursor-pointer hover:scale-110 transition" onclick="addImage(0)">
+        <img src="/images/Forestt.png" alt="" class="w-32 h-32 rounded-2xl cursor-pointer hover:scale-110 transition" onclick="addImage(1)">
+        <img src="/images/Wheat.png" alt="" class="w-32 h-32 rounded-2xl cursor-pointer hover:scale-110 transition" onclick="addImage(2)">
+        <img src="/images/cat2.jpg" alt="" class="w-32 h-32 rounded-2xl cursor-pointer hover:scale-110 transition" onclick="addImage(3)">
+    </div>
+    
+    <div class="flex justify-center items-center bg-black/50 fixed inset-0 hidden" id="dummydiv">
+        <img src="" alt="" id="dummyimg" class="max-h-[80vh] rounded-2xl"> -->
+
+        <!-- making cross button -->
+         <!-- <button class="text-4xl absolute top-5 right-5 bg-amber-100 rounded-full p-2 cursor-pointer" onclick="removeImage()">X</button>
+         <button class="text-4xl absolute right-5 cursor-pointer" onclick="nextImage()">></button>
+         <button class="text-4xl absolute left-5 cursor-pointer" onclick="prevImage()"><</button>
+
+    </div>
+
+    <script> -->
+
+        <!-- // function addImage(img1){
+        //     document.getElementById("dummyimg").src = img1.src;
+        //     document.getElementById("dummydiv").classList.remove("hidden");
+        // }
+
+
+        function removeImage(){
+            document.getElementById("dummydiv").classList.add("hidden");
+        }
+
+        const Images = [
+            "/images/parkimage.jpg",
+            "/images/Forestt.png",
+            "/images/Wheat.png",
+            "/images/cat2.jpg"
+    ]
+        var currentIndex = 0;
+        function addImage(index){ -->
+
+            <!-- currentIndex = index;
+            document.getElementById("dummyimg").src = Images[currentIndex];
+            document.getElementById("dummydiv").classList.remove("hidden");
+        }
+        
+        function nextImage(){
+            currentIndex = (currentIndex+1)%Images.length;
+            addImage(currentIndex);
+        }
+        function prevImage(){
+            currentIndex = (currentIndex-1)%Images.length;
+            addImage(currentIndex);
+        }
+         -->
+
+    <!-- </script>
+
+
+</body>
+
+</html> -->
